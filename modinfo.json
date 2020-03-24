@@ -1,0 +1,25 @@
+{
+    "author": "mattshadowwing",
+    "build": "113968",
+    "context": "server",
+	"category":
+    [
+        "classic",
+        "titans"
+    ],
+    "date": "2020-03-24",
+    "description": "If a player pauses the game, they will send a chat message.",
+    "display_name": "Who Paused?",
+    "identifier": "com.mattshadowwing.pause",
+    "forum": "https://forums.planetaryannihilation.com/threads/server-who-paused.73454/",
+    "signature": "Based on flubb's mod",
+    "version": "1.0.0",
+    "scenes": {
+        "live_game_chat": [
+            "coui://ui/mods/com.mattshadowwing.pause/chat.js"
+        ],
+        "live_game": [
+            "coui://ui/mods/com.mattshadowwing.pause/pause.js"
+        ]
+    }
+}
